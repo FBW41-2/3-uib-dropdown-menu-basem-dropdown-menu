@@ -1,38 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3-uib-dropdown-menu-basem-dropdown-menu</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-<body>
-    <nav class="menu">
-        <div id="logo">Basem </div>
-        <ul>
-            <li><a class="menu-items" href="#"> About</a>
-                <div class="sub-contect">
-                    <div class="sub-drop">
-                        <ul>
-                            <li> <a class="menu-item" href="#">Pick your flowers </a> </li>
-                            <li> <a class="menu-item" href="#">Custom packaging </a> </li>
-                            <li> <a class="menu-item" href="#"> Custom packaging</a> </li>
-                        </ul>
-                    </div>
-                </div>
-
-            </li>
-            <li class="Ser"> <a class="menu-items" href="#">Services</a> </li>
-            <li class="Top"><a class="menu-items" href="#">Top Picks</a> </li>
-        </ul>
-
-
-
-    </nav>
-
-</body>
-
+  <body>
+    <div class="navbar">
+      <div class="dropdown">
+        <button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
+        <div class="dropdown-content">
+          <a href="#">Pick your flowers </a>
+          <a href="#">Custom packaging </a>
+          <a href="#"> Custom packaging</a>
+        </div>
+      </div>
+      <a href="#Services">Services<i class="fa fa-caret-down"></i> </a>
+      <a href="#Top Picks">Top Picks <i class="fa fa-caret-down"></i></a>
+    </div>
+  </body>
 </html>
